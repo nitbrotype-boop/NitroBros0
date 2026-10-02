@@ -15,8 +15,11 @@
         <div class="nav-logo">⚡ Nitro Bros_ <span class="tag-highlight">[7N1TRO]</span></div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
             <li><a href="#stats">Team Stats</a></li>
             <li><a href="#roster">Roster</a></li>
+            <li><a href="#requirements">Requirements</a></li>
+            <li><a href="#join">Join Us</a></li>
             <li><a href="https://nitrotype.com" target="_blank" class="play-btn">Official Team Page</a></li>
         </ul>
     </nav>
@@ -27,9 +30,26 @@
         <div class="hero-content">
             <h1 class="team-title">NITRO BROS_ <br><span class="neon-text">[7N1TRO]</span></h1>
             <p class="team-slogan">Speed. Precision. Brotherhood. Dominating the blacktop one track at a time.</p>
-            <a href="#roster" class="cta-btn">View Roster</a>
+            <a href="#join" class="cta-btn">Apply Now</a>
         </div>
     </header>
+
+    <!-- NEW SECTION: Team News Feed -->
+    <section id="news" class="news-section">
+        <h2 class="section-title">TEAM NEWS & ANNOUNCEMENTS</h2>
+        <div class="news-container">
+            <div class="news-card feature-news">
+                <span class="news-date">October 1, 2026</span>
+                <h3>Welcome to the Official Team Hub!</h3>
+                <p>Our GitHub Pages portal is officially online. Share this link around with potential recruits and rivals. Let's push hard on the tracks this season!</p>
+            </div>
+            <div class="news-card">
+                <span class="news-date">September 28, 2026</span>
+                <h3>Weekly Target: 50 Races Per Player</h3>
+                <p>To help bump up our overall all-time statistics, we're aiming for a casual target of 50 team races per active member before Sunday night resets.</p>
+            </div>
+        </div>
+    </section>
 
     <!-- Team Stats Dashboard Section -->
     <section id="stats" class="stats-section">
@@ -75,7 +95,7 @@
                         <td>6</td>
                     </tr>
                     <tr>
-                        <td class="racer-name">🏎️ ej0422</td>
+                        <td class="racer-name">🏎️ oj0422</td>
                         <td><span class="rank-tag officer">Officer</span></td>
                         <td class="wpm-text">21 WPM</td>
                         <td>46 WPM</td>
@@ -83,7 +103,7 @@
                         <td>41</td>
                     </tr>
                     <tr>
-                        <td class="racer-name">🏎️ seannn_</td>
+                        <td class="racer-name">🏎️ seaninn_</td>
                         <td><span class="rank-tag officer">Officer</span></td>
                         <td class="wpm-text">69 WPM</td>
                         <td>124 WPM</td>
@@ -95,6 +115,52 @@
         </div>
     </section>
 
+    <!-- NEW SECTION: Team Requirements -->
+    <section id="requirements" class="req-section">
+        <h2 class="section-title">TEAM REQUIREMENTS</h2>
+        <div class="req-grid">
+            <div class="req-item">
+                <span class="req-icon">⏱️</span>
+                <h4>Minimum Speed</h4>
+                <p>We accept racers of all backgrounds, but suggest a minimum baseline speed of <strong>20+ WPM</strong> to match team averages.</p>
+            </div>
+            <div class="req-item">
+                <span class="req-icon">🔥</span>
+                <h4>Activity Rule</h4>
+                <p>Members should log on and race at least once every 14 days to keep their spot in the roster active.</p>
+            </div>
+            <div class="req-item">
+                <span class="req-icon">🤝</span>
+                <h4>Fair Play</h4>
+                <p>No cheating, no script hacking, and keep things supportive within the Nitro Bros_ circle.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW SECTION: Join / Recruitment Form -->
+    <section id="join" class="join-section">
+        <h2 class="section-title">JOIN THE BROS_ CREW</h2>
+        <p class="join-intro">Think you have the typing speed to match our squad? Drop your application details below!</p>
+        <div class="form-container">
+            <!-- Form points to Formspree/similar or acts as a template block -->
+            <form class="apply-form" action="#" method="POST" onsubmit="alert('Application template submitted!'); return false;">
+                <div class="form-group">
+                    <label for="username">Nitro Type Username</label>
+                    <input type="text" id="username" placeholder="Exact username..." required>
+                </div>
+                <div class="form-group">
+                    <label for="speed">Your Top Speed (WPM)</label>
+                    <input type="number" id="speed" placeholder="e.g. 75" required>
+                </div>
+                <div class="form-group">
+                    <label for="reason">Why do you want to join Nitro Bros_?</label>
+                    <textarea id="reason" rows="4" placeholder="Tell us about yourself..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer">
         <p>&copy; 2026 Nitro Bros_ [7N1TRO]. Designed for pure speed.</p>
@@ -102,3 +168,4 @@
 
 </body>
 </html>
+
